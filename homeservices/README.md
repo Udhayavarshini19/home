@@ -2,16 +2,12 @@
 
 ## Abstract
 
-This is sample Home Service booking project. I created this project while
+This is a sample Home Service booking project. I created this project while
 learning. Created with PHP(Without any Frameworks). You basically register
 service providers and then can manage bookings or those providers through admin
 login.
 
-## License & Copyrights
-You can fully copy or redistribute any part including assets, no License or
-credit required. (Optional if you end up using it can provide link to my
-webiste as it would help me to gain more traffic. It's totally optional).
-This Project uses MIT license.
+
 
 ## Information
 
@@ -21,7 +17,7 @@ This Project uses MIT license.
 
 #### Login Info
 - Admin:
-  - Mobile No.: 7070808080
+  - Mobile No.: 0909
   - Password  : admin123
 - Providers:
     - No Providers are registered by default use register screen to create
@@ -30,23 +26,37 @@ This Project uses MIT license.
 #### NOTE
 This project is not meant to be used in production. If you want to use it in
 real scenario either go over code to remove any security flaws like I stored
-passwords in plain text which is not recommended. Although PDO drivers with
-parameterised query is used there is no guarntee of full hackerproof safety.
+passwords in plain text in some of the cases which is not recommended.
 
 
 ## Want production ready version?
 Currently I would not suggest you to use this for anything rather than study or
 for really small scale business. But if you want full featured Application you
-can hire me thorugh my email(v at kubre dot in) or
-[website](https://kubre.in).
+can hire me thorugh my email(udhayavarshini04gmail.com)
 
 ## Features
-- Search for professionals for plumbing, mobile repaires, etc. in your city.
+- Search for professionals for plumbing, electrician, etc. in your city.
 - Register as service provider. Update providers information and password
   through.
   Providers Login.
 - Admin can see and manage bookings.
 - Admin can see and manage providers.
+- register and login as a service requester to book and review serviceproviders
+
+  ##functionality
+
+  *ADMIN
+   -login as service provider with the above mentioned contact and password to manage bookings and providers.
+
+   *REQUESTER
+ - register with details and the login to continue
+ - can able to book and review
+ - also can see the status of the request under the profile
+ 
+  *PROVIDER
+  - register and login to see and manage bookings
+  - able to update profile
+  - able to accept and deny the bookings
 
 
 
